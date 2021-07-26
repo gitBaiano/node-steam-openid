@@ -54,7 +54,9 @@ class SteamAuth {
           return reject("Claimed identity is not valid.");
 
         try {
-          const user = result.claimedIdentifier;
+          const user = /(?!.*\/).+/.exec(
+            result.claimedIdentifier
+          );
           return resolve(user);
         } catch (error) {
           reject(error);
