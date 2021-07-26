@@ -31,6 +31,7 @@ app.get("/auth/steam", async (req, res) => {
 
 app.get("/auth/steam/authenticate", async (req, res) => {
   try {
+  // user = steam64 ID
     const user = await steam.authenticate(req);
 
     //...do something with the data
