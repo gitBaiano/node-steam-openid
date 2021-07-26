@@ -1,7 +1,7 @@
 # node-steam-openid
 
 [![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://badge.fury.io/js/node-steam-openid)
-[![dependencies](https://david-dm.org/leevihalme/node-steam-openid.svg)](https://david-dm.org/leevihalme/node-steam-openid.svg)
+[![dependencies](https://david-dm.org/gitBaiano/simple-node-steam-openid.svg)](https://david-dm.org/gitBaiano/simple-node-steam-openid.svg)
 
 A lightweight wrapper package around Steam's Authentication API, which supports promises :)
 
@@ -87,23 +87,12 @@ steam.authenticate(req).then(user => {
 
 ### UserObject
 
-Object which holds all the authenticated user's data. The key `_json` holds the raw response from Steam API.
+Object which holds user's steamID64 from request.
 
 #### Example
 
 ```javascript
-{
-  _json: { ... },
-  steamid: "12345678912345678",
-  username: "Example Username",
-  name: "Example Name",
-  profile: "https://steamcommunity.com/id/Example",
-  avatar: {
-    small: "...",
-    medium: "...",
-    large: "..."
-  }
-}
+"12345678912345678"
 ```
 
 ## License
