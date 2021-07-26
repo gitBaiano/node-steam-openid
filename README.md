@@ -1,4 +1,4 @@
-# node-steam-openid
+# simple-node-steam-openid
 
 [![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://badge.fury.io/js/node-steam-openid)
 [![dependencies](https://img.shields.io/david/gitBaiano/simple-node-steam-openid?style=plastic)](https://img.shields.io/david/gitBaiano/simple-node-steam-openid?style=plastic)
