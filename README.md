@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/node-steam-openid.svg)](https://badge.fury.io/js/node-steam-openid)
 [![dependencies](https://img.shields.io/david/gitBaiano/simple-node-steam-openid?style=plastic)](https://img.shields.io/david/gitBaiano/simple-node-steam-openid?style=plastic)
 
-A lightweight wrapper package around Steam's Authentication API, which supports promises :)
+A simplificated version (with less http requests and simplified return (with just steam64)) of node-steam-openid module, a lightweight wrapper package around Steam's Authentication API, which supports promises :)
 
 ## Usage
 
